@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aurevia проектирует частные SPA и wellness-пространства: архитектура, инженерная координация, комплектация и авторское сопровождение."
+    />
+    <meta name="theme-color" content="#1b201e" />
+    <meta property="og:title" content="Aurevia — архитектура частных SPA" />
+    <meta
+      property="og:description"
+      content="Пространства для воды, тепла и тишины — от первой концепции до запуска."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/aurevia-hero.jpg" />
+    <title>Aurevia — архитектура частных SPA</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%231b201e'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23e9eae5' stroke-width='4'/%3E%3Cpath d='M14 34a18 18 0 0 0 36 0z' fill='%236e8f89'/%3E%3C/svg%3E"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/aurevia-hero.jpg"
+      fetchpriority="high"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script>
+      document.documentElement.classList.replace("no-js", "js");
+    </script>
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-arrow-ne" viewBox="0 0 16 16">
+        <path d="M3.25 12.75 12.75 3.25M5 3.25h7.75V11"></path>
+      </symbol>
+      <symbol id="icon-arrow-left" viewBox="0 0 16 16">
+        <path d="M13 8H3m3.75-3.75L3 8l3.75 3.75"></path>
+      </symbol>
+      <symbol id="icon-arrow-right" viewBox="0 0 16 16">
+        <path d="M3 8h10M9.25 4.25 13 8l-3.75 3.75"></path>
+      </symbol>
+    </svg>
+
+    <a class="skip-link" href="#main-content">Перейти к содержанию</a>
+
+    <header class="site-header" data-header>
+      <div class="site-header__inner shell">
+        <a class="brand" href="#top" aria-label="Aurevia — на главную">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>Aurevia</span>
+        </a>
+
+        <nav
+          class="site-nav"
+          id="primary-navigation"
+          aria-label="Основная навигация"
+          data-nav
+        >
+          <ul class="site-nav__list">
+            <li><a href="#studio">Студия</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#process">Процесс</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+          <a class="site-nav__mobile-cta" href="#contact">Обсудить проект</a>
+        </nav>
+
+        <a class="header-cta" href="#contact">
+          Обсудить проект
+          <svg class="icon" aria-hidden="true">
+            <use href="#icon-arrow-ne"></use>
+          </svg>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Открыть меню"
+          data-menu-toggle
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__media" aria-hidden="true">
+          <img
+            src="assets/images/aurevia-hero.jpg"
+            alt=""
+            width="1616"
+            height="872"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <div class="hero__veil"></div>
+          <div class="waterline-band" data-waterline></div>
+        </div>
+
+        <div class="hero__content shell">
+          <p class="eyebrow hero__eyebrow" data-hero-item>
+            Aurevia · Private wellness architecture
+          </p>
+          <h1
+            id="hero-title"
+            class="hero__title"
+            aria-label="Дом, в котором вода меняет ритм"
+          >
+            <span class="hero__line"><span>Дом, в котором</span></span>
+            <span class="hero__line hero__line--offset"
+              ><span>вода меняет</span></span
+            >
+            <span class="hero__line"><span>ритм.</span></span>
+          </h1>
+          <div class="hero__intro" data-hero-item>
+            <p>
+              Проектируем частные SPA и wellness-пространства — от архитектурной
+              концепции до запуска оборудования.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--light" href="#contact">
+                <span>Обсудить пространство</span>
+                <svg class="icon" aria-hidden="true">
+                  <use href="#icon-arrow-ne"></use>
+                </svg>
+              </a>
+              <a class="text-link text-link--light" href="#projects"
+                >Смотреть проекты</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__foot shell" data-hero-item>
+          <p>Частный SPA · Московская область</p>
+          <p>96 м² · 2026</p>
+          <a class="scroll-cue" href="#studio">
+            <span>Листать</span
+            ><span class="scroll-cue__line" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section about" id="studio" aria-labelledby="about-title">
+        <div class="shell">
+          <div class="about__guide">
+            <header class="section-heading section-heading--split" data-reveal>
+              <p class="eyebrow">Подход</p>
+              <h2 id="about-title">
+                Wellness начинается<br />не с оборудования,<br />а с ощущения.
+              </h2>
+            </header>
+
+            <div class="about__grid">
+              <div class="about__index" aria-hidden="true" data-reveal>
+                <span>Вода</span>
+                <span>Свет</span>
+                <span>Тепло</span>
+                <span>Тишина</span>
+              </div>
+
+              <div class="about__body" data-reveal>
+                <p class="lead">
+                  Мы рассматриваем SPA как часть архитектуры дома, а не набор
+                  отдельных функций.
+                </p>
+                <p>
+                  Сначала выстраиваем сценарий: как человек входит, замедляется,
+                  согревается, соприкасается с водой и возвращается в жилое
+                  пространство. Затем подчиняем этому планировку, инженерные
+                  системы, свет и тактильность материалов.
+                </p>
+              </div>
+
+              <blockquote class="about__quote" data-reveal>
+                <p>
+                  «Пространство должно работать без усилий и оставаться тихим —
+                  визуально и буквально».
+                </p>
+                <footer>Принцип Aurevia</footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <ul class="capabilities" aria-label="Компетенции студии" data-reveal>
+            <li>Архитектура и интерьер</li>
+            <li>Влажные зоны и микроклимат</li>
+            <li>Световые сценарии</li>
+            <li>Подбор материалов</li>
+            <li>Авторское сопровождение</li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="section projects"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="shell">
+          <header class="section-heading section-heading--projects" data-reveal>
+            <div>
+              <p class="eyebrow">Избранные проекты</p>
+              <h2 id="projects-title">
+                Пространства<br />с собственным ритмом
+              </h2>
+            </div>
+            <p class="section-heading__note">
+              Каждый проект начинается с поведения человека — и только затем
+              становится планом, материалом и светом.
+            </p>
+          </header>
+
+          <div class="project-list">
+            <article class="project project--landscape" data-reveal>
+              <a
+                class="project__media media-reveal"
+                href="#contact"
+                aria-label="Обсудить проект «Минеральная тишина»"
+              >
+                <img
+                  src="assets/images/project-quiet-water.jpg"
+                  alt="Хаммам из светлого травертина с мягкой скрытой подсветкой"
+                  width="1536"
+                  height="1024"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="project__arrow" aria-hidden="true">
+                  <svg class="icon"><use href="#icon-arrow-ne"></use></svg>
+                </span>
+              </a>
+              <div class="project__caption">
+                <div>
+                  <p class="project__number">P—01</p>
+                  <h3>Минеральная тишина</h3>
+                </div>
+                <p>Частный дом · Подмосковье</p>
+                <p>Бассейн, хаммам, зона отдыха · 96 м²</p>
+              </div>
+            </article>
+
+            <article class="project project--portrait" data-reveal>
+              <a
+                class="project__media media-reveal"
+                href="#contact"
+                aria-label="Обсудить проект «Сосновый склон»"
+              >
+                <img
+                  src="assets/images/project-pine-slope.jpg"
+                  alt="Тёмная деревянная сауна и каменная купель с видом на сосновый лес"
+                  width="1024"
+                  height="1536"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="project__arrow" aria-hidden="true">
+                  <svg class="icon"><use href="#icon-arrow-ne"></use></svg>
+                </span>
+              </a>
+              <div class="project__caption">
+                <div>
+                  <p class="project__number">P—02</p>
+                  <h3>Сосновый склон</h3>
+                </div>
+                <p>Загородная резиденция · Карелия</p>
+                <p>Сауна, купель, душ впечатлений · 128 м²</p>
+              </div>
+            </article>
+
+            <article class="project project--square" data-reveal>
+              <a
+                class="project__media media-reveal"
+                href="#contact"
+                aria-label="Обсудить проект «Внутренний горизонт»"
+              >
+                <img
+                  src="assets/images/project-inner-horizon.jpg"
+                  alt="Городская wellness-комната с круглой купелью и панорамным видом"
+                  width="1266"
+                  height="1243"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="project__arrow" aria-hidden="true">
+                  <svg class="icon"><use href="#icon-arrow-ne"></use></svg>
+                </span>
+              </a>
+              <div class="project__caption">
+                <div>
+                  <p class="project__number">P—03</p>
+                  <h3>Внутренний горизонт</h3>
+                </div>
+                <p>Городская резиденция · Москва</p>
+                <p>Купель, массажная, зона тишины · 54 м²</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section services"
+        id="services"
+        aria-labelledby="services-title"
+      >
+        <div class="shell services__layout">
+          <header class="services__intro" data-reveal>
+            <p class="eyebrow">Что мы делаем</p>
+            <h2 id="services-title">
+              От замысла<br />до первого<br />ритуала.
+            </h2>
+            <p>
+              Можно пройти с нами весь путь или подключить студию на отдельном
+              этапе.
+            </p>
+            <a class="text-link" href="#contact">Подобрать формат работы</a>
+          </header>
+
+          <div class="service-list">
+            <article class="service-item" data-reveal>
+              <p class="service-item__meta">Старт</p>
+              <h3>Концепция пространства</h3>
+              <p>
+                Сценарии, планировочная логика, атмосфера, материалы и
+                предварительная оценка решений.
+              </p>
+              <span class="service-item__line" aria-hidden="true"></span>
+            </article>
+            <article class="service-item" data-reveal>
+              <p class="service-item__meta">Основа</p>
+              <h3>Архитектурный проект SPA</h3>
+              <p>
+                Полный комплект чертежей, узлы влажных зон, спецификации
+                отделки, мебели и света.
+              </p>
+              <span class="service-item__line" aria-hidden="true"></span>
+            </article>
+            <article class="service-item" data-reveal>
+              <p class="service-item__meta">Системы</p>
+              <h3>Инженерная координация</h3>
+              <p>
+                Связываем бассейн, вентиляцию, водоподготовку, отопление и
+                электрику в одну систему.
+              </p>
+              <span class="service-item__line" aria-hidden="true"></span>
+            </article>
+            <article class="service-item" data-reveal>
+              <p class="service-item__meta">Материя</p>
+              <h3>Комплектация</h3>
+              <p>
+                Подбираем оборудование, сантехнику, свет, камень, дерево и
+                изделия на заказ.
+              </p>
+              <span class="service-item__line" aria-hidden="true"></span>
+            </article>
+            <article class="service-item" data-reveal>
+              <p class="service-item__meta">Площадка</p>
+              <h3>Авторское сопровождение</h3>
+              <p>
+                Проверяем соответствие стройки проекту и решаем вопросы
+                реализации на объекте.
+              </p>
+              <span class="service-item__line" aria-hidden="true"></span>
+            </article>
+            <article class="service-item" data-reveal>
+              <p class="service-item__meta">Экспертиза</p>
+              <h3>Аудит готового проекта</h3>
+              <p>
+                Проверяем планировку, материалы и инженерные решения до начала
+                реализации.
+              </p>
+              <span class="service-item__line" aria-hidden="true"></span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section process"
+        id="process"
+        aria-labelledby="process-title"
+      >
+        <div class="shell">
+          <header class="section-heading section-heading--process" data-reveal>
+            <p class="eyebrow">Процесс</p>
+            <h2 id="process-title">Пять решений<br />до целого пространства</h2>
+          </header>
+
+          <ol class="process-list">
+            <li class="process-step" data-reveal>
+              <p class="process-step__number">01</p>
+              <div>
+                <h3>Знакомство</h3>
+                <p>
+                  Обсуждаем дом, привычки семьи, желаемые ритуалы, сроки и рамки
+                  проекта.
+                </p>
+              </div>
+              <p class="process-step__result">Результат · вводная встреча</p>
+            </li>
+            <li class="process-step" data-reveal>
+              <p class="process-step__number">02</p>
+              <div>
+                <h3>Исследование</h3>
+                <p>
+                  Изучаем архитектуру, инженерные условия, свет, виды и связи с
+                  домом.
+                </p>
+              </div>
+              <p class="process-step__result">Результат · карта ограничений</p>
+            </li>
+            <li class="process-step" data-reveal>
+              <p class="process-step__number">03</p>
+              <div>
+                <h3>Концепция</h3>
+                <p>
+                  Формируем планировку, образ, палитру материалов и технические
+                  принципы.
+                </p>
+              </div>
+              <p class="process-step__result">Результат · альбом концепции</p>
+            </li>
+            <li class="process-step" data-reveal>
+              <p class="process-step__number">04</p>
+              <div>
+                <h3>Проектирование</h3>
+                <p>
+                  Выпускаем документацию и согласовываем решения со смежными
+                  специалистами.
+                </p>
+              </div>
+              <p class="process-step__result">Результат · рабочий проект</p>
+            </li>
+            <li class="process-step" data-reveal>
+              <p class="process-step__number">05</p>
+              <div>
+                <h3>Реализация</h3>
+                <p>
+                  Сопровождаем стройку, комплектацию, монтаж и финальную
+                  настройку.
+                </p>
+              </div>
+              <p class="process-step__result">
+                Результат · готовое пространство
+              </p>
+            </li>
+          </ol>
+
+          <p class="process__note" data-reveal>
+            Состав и глубину этапов определяем после знакомства с объектом.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="section testimonials"
+        aria-labelledby="testimonials-title"
+      >
+        <div class="shell">
+          <header class="testimonials__header" data-reveal>
+            <div>
+              <p class="eyebrow">Голоса клиентов</p>
+              <h2 id="testimonials-title">
+                Когда пространство<br />становится привычкой
+              </h2>
+            </div>
+            <div class="testimonial-controls" aria-label="Управление отзывами">
+              <button
+                type="button"
+                data-testimonial-prev
+                aria-label="Предыдущий отзыв"
+              >
+                <svg class="icon" aria-hidden="true">
+                  <use href="#icon-arrow-left"></use>
+                </svg>
+              </button>
+              <p aria-live="polite">
+                <span data-testimonial-current>01</span> / 03
+              </p>
+              <button
+                type="button"
+                data-testimonial-next
+                aria-label="Следующий отзыв"
+              >
+                <svg class="icon" aria-hidden="true">
+                  <use href="#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="testimonial-viewport" data-reveal>
+            <div class="testimonial-track" data-testimonial-track>
+              <figure class="testimonial is-active" data-testimonial>
+                <blockquote>
+                  «Мы хотели не домашний отель, а место, которым действительно
+                  будем пользоваться каждый день. Теперь это самая живая часть
+                  дома».
+                </blockquote>
+                <figcaption>
+                  <span>Мария и Андрей</span>
+                  <span>Частный дом · Московская область</span>
+                </figcaption>
+              </figure>
+              <figure class="testimonial" data-testimonial aria-hidden="true">
+                <blockquote>
+                  «Команда заранее увидела конфликт между вентиляцией, светом и
+                  потолком бассейна. Сложная инженерия в результате осталась
+                  незаметной — как и должна».
+                </blockquote>
+                <figcaption>
+                  <span>Илья</span>
+                  <span>Загородная резиденция · Карелия</span>
+                </figcaption>
+              </figure>
+              <figure class="testimonial" data-testimonial aria-hidden="true">
+                <blockquote>
+                  «В проекте нет случайных эффектов. Свет, камень и дерево
+                  меняются в течение дня, но пространство всегда ощущается
+                  цельным и тихим».
+                </blockquote>
+                <figcaption>
+                  <span>Елена</span>
+                  <span>Частная wellness-зона · Москва</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="shell faq__layout">
+          <header class="faq__intro" data-reveal>
+            <p class="eyebrow">До начала проекта</p>
+            <h2 id="faq-title">Важные<br />вопросы</h2>
+            <p>
+              Не нашли нужного ответа? Напишите — разберём исходные данные
+              вашего объекта.
+            </p>
+            <a class="text-link" href="mailto:hello@aurevia.studio"
+              >hello@aurevia.studio</a
+            >
+          </header>
+
+          <div class="faq-list" data-reveal>
+            <details name="faq">
+              <summary>
+                <span>На каком этапе лучше обратиться?</span
+                ><span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>
+                Оптимально — во время проектирования дома, до фиксации
+                конструкций и инженерных трасс. Но мы также работаем с готовыми
+                помещениями и реконструкцией.
+              </p>
+            </details>
+            <details name="faq">
+              <summary>
+                <span>Можно заказать только концепцию?</span
+                ><span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>
+                Да. Концепция может быть самостоятельным этапом или основой для
+                дальнейшего полного проектирования.
+              </p>
+            </details>
+            <details name="faq">
+              <summary>
+                <span>Вы проектируете инженерные системы?</span
+                ><span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>
+                Мы определяем архитектурные и функциональные требования и
+                координируем профильных инженеров. Расчёты водоподготовки,
+                вентиляции и конструкций выполняют специализированные
+                подрядчики.
+              </p>
+            </details>
+            <details name="faq">
+              <summary>
+                <span>Работаете с архитектором заказчика?</span
+                ><span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>
+                Да. Подключаемся как специализированная wellness-команда и
+                интегрируем решения в общую архитектуру дома.
+              </p>
+            </details>
+            <details name="faq">
+              <summary>
+                <span>Можно работать с объектом в другом городе?</span
+                ><span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>
+                Да. Исследование, проектирование и комплектация могут идти
+                дистанционно; ключевые этапы сопровождаем выездами на объект.
+              </p>
+            </details>
+            <details name="faq">
+              <summary>
+                <span>Сколько занимает проектирование?</span
+                ><span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>
+                Срок зависит от площади, состава зон и стадии объекта. После
+                вводной встречи мы предлагаем календарный план по этапам.
+              </p>
+            </details>
+            <details name="faq">
+              <summary>
+                <span>Как формируется стоимость?</span
+                ><span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>
+                Она зависит от площади, состава документации и объёма
+                сопровождения. До договора фиксируем перечень работ, результат
+                каждого этапа и график платежей.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__watermark" aria-hidden="true">Aurevia</div>
+        <div class="shell contact__layout">
+          <header class="contact__intro" data-reveal>
+            <p class="eyebrow">Начать разговор</p>
+            <h2 id="contact-title">Каким вы видите<br />свой дом?</h2>
+            <p>
+              Достаточно нескольких вводных. Мы изучим задачу и предложим
+              подходящий формат первой встречи.
+            </p>
+            <div class="contact__direct">
+              <a href="mailto:hello@aurevia.studio">hello@aurevia.studio</a>
+              <p>Москва · Работаем с проектами в России и за её пределами</p>
+            </div>
+          </header>
+
+          <form
+            class="contact-form"
+            action="/api/contact"
+            method="post"
+            novalidate
+            data-contact-form
+            data-reveal
+          >
+            <div class="field field--website" aria-hidden="true">
+              <label for="website">Ваш сайт</label>
+              <input
+                id="website"
+                name="website"
+                type="text"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label for="name"
+                  >Как к вам обращаться <span aria-hidden="true">*</span></label
+                >
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="Имя"
+                  required
+                  aria-describedby="name-error"
+                />
+                <span
+                  class="field__error"
+                  id="name-error"
+                  data-error-for="name"
+                ></span>
+              </div>
+              <div class="field">
+                <label for="contact-value"
+                  >Телефон или email <span aria-hidden="true">*</span></label
+                >
+                <input
+                  id="contact-value"
+                  name="contact"
+                  type="text"
+                  autocomplete="email"
+                  inputmode="email"
+                  placeholder="+7 900 000-00-00 или name@example.com"
+                  required
+                  aria-describedby="contact-error"
+                />
+                <span
+                  class="field__error"
+                  id="contact-error"
+                  data-error-for="contact"
+                ></span>
+              </div>
+              <div class="field">
+                <label for="location">Где находится объект</label>
+                <input
+                  id="location"
+                  name="location"
+                  type="text"
+                  autocomplete="address-level1"
+                  placeholder="Город или регион"
+                />
+              </div>
+              <div class="field field--select">
+                <label for="object-type">Тип объекта</label>
+                <select id="object-type" name="objectType">
+                  <option value="">Выберите тип</option>
+                  <option>Частный дом</option>
+                  <option>Квартира</option>
+                  <option>Резиденция / отель</option>
+                  <option>Другое</option>
+                </select>
+              </div>
+              <div class="field field--wide">
+                <label for="message"
+                  >О проекте <span aria-hidden="true">*</span></label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Площадь, желаемые зоны, текущая стадия и ориентир по срокам"
+                  required
+                  aria-describedby="message-error"
+                ></textarea>
+                <span
+                  class="field__error"
+                  id="message-error"
+                  data-error-for="message"
+                ></span>
+              </div>
+            </div>
+
+            <div class="form-consent">
+              <label class="checkbox" for="consent">
+                <input
+                  id="consent"
+                  name="consent"
+                  type="checkbox"
+                  required
+                  aria-describedby="consent-error"
+                />
+                <span class="checkbox__box" aria-hidden="true"></span>
+                <span
+                  >Согласен(на) на обработку персональных данных в соответствии
+                  с политикой конфиденциальности.</span
+                >
+              </label>
+              <span
+                class="field__error"
+                id="consent-error"
+                data-error-for="consent"
+              ></span>
+            </div>
+
+            <div class="form-footer">
+              <button
+                class="button button--mineral"
+                type="submit"
+                data-submit-button
+              >
+                <span data-submit-label>Обсудить проект</span>
+                <svg class="icon" aria-hidden="true">
+                  <use href="#icon-arrow-ne"></use>
+                </svg>
+              </button>
+              <p
+                class="form-status"
+                role="status"
+                aria-live="polite"
+                data-form-status
+              ></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="site-footer__top">
+          <p>
+            Aurevia проектирует домашние пространства<br />для воды, тепла и
+            тишины.
+          </p>
+          <a class="button button--outline" href="#contact">
+            <span>Начать с разговора</span>
+            <svg class="icon" aria-hidden="true">
+              <use href="#icon-arrow-ne"></use>
+            </svg>
+          </a>
+        </div>
+
+        <div class="site-footer__nav">
+          <nav aria-label="Навигация в подвале">
+            <a href="#studio">Студия</a>
+            <a href="#projects">Проекты</a>
+            <a href="#services">Услуги</a>
+            <a href="#process">Процесс</a>
+            <a href="#faq">FAQ</a>
+          </nav>
+          <div>
+            <a href="mailto:hello@aurevia.studio">hello@aurevia.studio</a>
+            <p>Москва · GMT+3</p>
+          </div>
+        </div>
+
+        <a class="footer-wordmark" href="#top" aria-label="Aurevia — наверх"
+          >Aurevia</a
+        >
+
+        <div class="site-footer__legal">
+          <p>© 2026 Aurevia</p>
+          <a
+            href="mailto:privacy@aurevia.studio?subject=Политика%20конфиденциальности"
+            >Политика конфиденциальности</a
+          >
+          <p>Private wellness architecture</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js?v=20260712-1"></script>
+  </body>
+</html>
