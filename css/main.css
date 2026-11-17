@@ -2374,3 +2374,26 @@ img {
     transform: none;
   }
 }
+
+/* Responsive hardening: keep artwork and grid children inside the viewport. */
+html { overflow-x: hidden; }
+main, header, footer, section, article, figure, form { min-width: 0; }
+img, svg, video, canvas { max-width: 100%; }
+button, a { -webkit-tap-highlight-color: transparent; }
+
+@media (max-width: 48rem) {
+  .shell { width: min(100%, 100%); }
+  .section-heading h2, .services__intro h2, .faq__intro h2, .contact__intro h2, .testimonials__header h2 { overflow-wrap: anywhere; }
+  .hero__media img { min-width: 0; }
+  .project__media, .service-item, .process-step, .faq-list, .form-grid { min-width: 0; }
+  .site-nav__list a { min-height: 3.25rem; }
+}
+
+@media (max-width: 28rem) {
+  .shell { padding-inline: 1rem; }
+  .hero__content { padding-bottom: 6.5rem; }
+  .hero__foot { gap: .55rem; }
+  .hero__foot > p { max-width: 11.5rem; }
+  .project__arrow { right: .5rem; }
+  .faq-list summary { font-size: 1.15rem; }
+}
